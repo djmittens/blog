@@ -10,4 +10,4 @@ docker run --rm --name "hugo" -P \
        jojomi/hugo
 
 echo "Fixing permissions(Ugh, those guys really need a better setup)"
-sudo chown -R $(id -u):$(id -g) public
+chown -R $(id -u):$(id -g) public

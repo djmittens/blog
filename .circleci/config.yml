@@ -1,6 +1,7 @@
 version: 2
 jobs:
   build-job:
+    machine: true
     docker:
       - image: debian:stretch
     steps:
@@ -9,6 +10,7 @@ jobs:
           name: Docker build
           command: ./bin/build.sh
   deploy-job:
+    machine: true
     docker:
       - image: debian:stretch
     steps:
