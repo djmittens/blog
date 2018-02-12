@@ -5,6 +5,10 @@ jobs:
     # docker:
     #   - image: debian:stretch
     steps:
+      # Reference a "R/W" deploy key
+      - add_ssh_keys:
+          fingerprints:
+            - "7a:5a:6b:be:98:1d:e0:3c:2d:cb:f1:11:bf:5b:df:24"
       - checkout
       - run:
           name: Docker build
@@ -14,11 +18,11 @@ jobs:
     # docker:
     #   - image: debian:stretch
     steps:
-      - checkout
       # Reference a "R/W" deploy key
       - add_ssh_keys:
           fingerprints:
             - "7a:5a:6b:be:98:1d:e0:3c:2d:cb:f1:11:bf:5b:df:24"
+      - checkout
       - run:
           name: Publish to GH Pages
           command: ./bin/publish.sh
