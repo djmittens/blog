@@ -22,6 +22,9 @@ docker run --rm --name "hugo" -P \
        -v $(pwd)/public:/output \
        jojomi/hugo
 
+echo "Fixing permissions(Ugh, those guys really need a better setup)"
+sudo chown -R $(id -u):$(id -g) public
+
 echo "Publishing..."
 cd public && git commit -am "Publishing new version of the blog" && git push && cd ..
 
