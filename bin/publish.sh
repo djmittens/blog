@@ -26,7 +26,7 @@ echo "Fixing permissions(Ugh, those guys really need a better setup)"
 sudo chown -R $(id -u):$(id -g) public
 
 echo "Publishing..."
-cd public && git commit -am "Publishing new version of the blog" && git push && cd ..
+cd public && git add . && git commit -m "Publishing new version of the blog" && git push && cd ..
 
 echo "Deleting publication"
 rm -rf public
