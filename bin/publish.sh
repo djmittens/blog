@@ -13,17 +13,7 @@ echo "Clearing old files"
 mkdir public
 rm -rf public/*
 
-echo "Generating site"
-#hugo --theme=hugo_theme_robust --buildDrafts
-docker run --rm --name "hugo" -P \
-       -e HUGO_THEME="hugo_theme_robust" \
-       -e HUGO_DESTINATION="/output" \
-       -v $(pwd):/src  \
-       -v $(pwd)/public:/output \
-       jojomi/hugo
-
-echo "Fixing permissions(Ugh, those guys really need a better setup)"
-sudo chown -R $(id -u):$(id -g) public
+source bin/build.sh
 
 echo "Publishing..."
 cd public && git add . && git commit -m "Publishing new version of the blog" && git push && cd ..
