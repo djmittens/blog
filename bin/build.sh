@@ -3,6 +3,7 @@
 echo "Generating site"
 mkdir public
 
+
 #hugo --theme=hugo_theme_robust --buildDrafts
 docker run --rm --name "hugo" -P \
        -u $(id -u):$(id -g)\
