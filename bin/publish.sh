@@ -17,8 +17,9 @@ echo "Generating site"
 #hugo --theme=hugo_theme_robust --buildDrafts
 docker run --rm --name "hugo" -P \
        -e HUGO_THEME="hugo_theme_robust" \
+       -e HUGO_DESTINATION="/output" \
        -v $(pwd):/src  \
-       -v public:/output \
+       -v $(pwd)/public:/output \
        jojomi/hugo
 
 echo "Publishing..."
