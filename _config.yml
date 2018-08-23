@@ -17,8 +17,8 @@ title: Dj Mittens in the house
 email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
   I am a software engineer, and an entrepreneur (maybe even future philanthropist, but i gotta become rich by selling a company first).  Most of the time i spend learning things somewhat related to computers or something like that.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://djmittens.github.io/blog" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/blog" # the subpath of your site, e.g. /blog
+url: "https://documents.github.io/blog/" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: djmittens
 github_username:  djmittens
 
