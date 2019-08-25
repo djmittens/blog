@@ -1,0 +1,5 @@
+baseURL = "http://djmittens.github.io/blog"
+languageCode = "en-us"
+title = "Nicks Blog"
+publishDir = "docs"
+theme = "solar-theme-hugo"

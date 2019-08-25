@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Nicks Blog</title>
+    <link>http://djmittens.github.io/blog/posts/</link>
+    <description>Recent content in Posts on Nicks Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 25 Aug 2019 00:28:32 -0700</lastBuildDate>
+    
+	<atom:link href="http://djmittens.github.io/blog/posts/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>My First Post</title>
+      <link>http://djmittens.github.io/blog/posts/my-first-post/</link>
+      <pubDate>Sun, 25 Aug 2019 00:28:32 -0700</pubDate>
+      
+      <guid>http://djmittens.github.io/blog/posts/my-first-post/</guid>
+      <description>Hello World This is pretty sweet or something like that. I dont really know what to write for my first post on my new blog, but it seems kinda cool. This is the third attempt for me for writing, and i hope this will pan out much better than the other 2.
+Ghost was a pain to maintain, because not only did i pay money for it, but i also failed to keep up with the SSL certificates / upgrades.</description>
+    </item>
+    
+  </channel>
+</rss>
