@@ -1,6 +1,7 @@
 ---
 title: "My First Post"
 date: 2019-08-25T00:28:32-07:00
+tags: [random thoughts]
 draft: flase
 ---
 

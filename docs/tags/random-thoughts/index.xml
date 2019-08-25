@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Nicks Blog</title>
-    <link>https://ngrid.me/blog/</link>
-    <description>Recent content on Nicks Blog</description>
+    <title>random thoughts on Nicks Blog</title>
+    <link>https://ngrid.me/blog/tags/random-thoughts/</link>
+    <description>Recent content in random thoughts on Nicks Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 25 Aug 2019 01:26:50 -0700</lastBuildDate>
+    <lastBuildDate>Sun, 25 Aug 2019 00:28:32 -0700</lastBuildDate>
     
-	<atom:link href="https://ngrid.me/blog/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://ngrid.me/blog/tags/random-thoughts/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
