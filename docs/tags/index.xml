@@ -2,13 +2,23 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Nicks Blog</title>
-    <link>https://djmittens.github.io/blog/tags/</link>
+    <link>https://ngrid.me/blog/tags/</link>
     <description>Recent content in Tags on Nicks Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <lastBuildDate>Sun, 25 Aug 2019 00:28:32 -0700</lastBuildDate>
     
-	<atom:link href="https://djmittens.github.io/blog/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://ngrid.me/blog/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>random thoughts</title>
+      <link>https://ngrid.me/blog/tags/random-thoughts/</link>
+      <pubDate>Sun, 25 Aug 2019 00:28:32 -0700</pubDate>
+      
+      <guid>https://ngrid.me/blog/tags/random-thoughts/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>

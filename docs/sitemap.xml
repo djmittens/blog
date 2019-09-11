@@ -3,22 +3,28 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://djmittens.github.io/blog/</loc>
-    <lastmod>2019-08-25T01:30:21-07:00</lastmod>
+    <loc>https://ngrid.me/blog/</loc>
+    <lastmod>2019-08-25T03:16:28-07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://djmittens.github.io/blog/posts/my-first-post/</loc>
-    <lastmod>2019-08-25T00:56:53-07:00</lastmod>
+    <loc>https://ngrid.me/blog/posts/my-first-post/</loc>
+    <lastmod>2019-08-25T03:16:28-07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://djmittens.github.io/blog/posts/</loc>
-    <lastmod>2019-08-25T00:56:53-07:00</lastmod>
+    <loc>https://ngrid.me/blog/posts/</loc>
+    <lastmod>2019-08-25T03:16:28-07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://djmittens.github.io/blog/tags/</loc>
+    <loc>https://ngrid.me/blog/tags/random-thoughts/</loc>
+    <lastmod>2019-08-25T03:16:28-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ngrid.me/blog/tags/</loc>
+    <lastmod>2019-08-25T03:16:28-07:00</lastmod>
   </url>
   
 </urlset>

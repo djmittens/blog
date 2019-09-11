@@ -1,7 +1,8 @@
 ---
 title: "My First Post"
 date: 2019-08-25T00:28:32-07:00
-draft: flase
+tags: [random thoughts]
+draft: false
 ---
 
 # Hello World
