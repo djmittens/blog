@@ -1,4 +1,4 @@
-baseURL = "https://djmittens.github.io/blog/"
+baseURL = "https://nick.ngrid.me/"
 languageCode = "en-us"
 title = "Nicks Blog"
 publishDir = "docs"
